@@ -1,0 +1,26 @@
+/*universel selector*/
+*{
+    padding: 0%;
+    margin: 0%;
+}
+/*class selector*/
+.head{
+    height:200px;
+    background-color:rgba(100,2,0,0.2) ;
+}
+/*id selector*/
+#para{
+    color: rgb(163, 24, 133);
+    font-size: 24px;
+    padding-bottom: 5px;
+}
+/*dicendent  selector*/
+div  h1{
+    text-decoration: underline;
+    font-size: 30px;
+    padding: 10px;
+    color: red;
+}
+div > h1{
+    color:blue;
+}
