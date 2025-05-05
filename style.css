@@ -24,3 +24,7 @@ div  h1{
 div > h1{
     color:blue;
 }
+p{
+    font-size: 20px;
+    color: rgb(9, 163, 137);
+}
